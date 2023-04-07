@@ -27,17 +27,15 @@
 
             ?>
 
-            <div>
+            <div class="form-group">
                 <p>Email:</p>
-                <input type="email" name="email" id="">
+                <input type="email" name="email" id="mail" class="form-control">
             </div>
-            <div>
+            <div class="form-group">
                 <p>password:</p>
-                <input type="password" name="password" id="">
+                <input type="password" name="password" id="pswd" class="form-control">
             </div>
-            <div>
-                <p><input type="submit" value="sign in"></p>
-            </div>
+            <button type="submit" class="btn btn-secondary"> Login</button>
             <div>
                 <label>New here? <a href="create_account.php"> sign up</a></label>
             </div>

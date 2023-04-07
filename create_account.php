@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Register</title>
     <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-    <nav>
-        <div><a href="">Nova App</a></div>
+<nav class="navbar bg-dark p-5 mt-30 " >
+        <div class=" container  p-20">
+            <a href="#" class="text-info"> Nova APP</a>
+        </div>
     </nav>
     <main>
         <form action="register.php" method="post" enctype="multipart/form-data">
@@ -18,23 +21,23 @@
                 <p>Create Account</p>
                 <hr>
             </div>
-            <div>
+            <div class="form-group">
                 <p>First Name:</p>
-                <input type="text" name="firstname" autocomplete="off">
+                <input type="text" name="firstname" autocomplete="off" class="form-control">
             </div>
-            <div>
+            <div class="form-group">
                 <p>Last Name:</p>
-                <input type="text" name="lastname" autocomplete="off">
+                <input type="text" name="lastname" autocomplete="off" class="form-control">
             </div>
-            <div>
+            <div class="form-group">
                 <p>Email:</p>
-                <input type="text" name="email" autocomplete="off">
+                <input type="text" name="email" autocomplete="off" class="form-control">
             </div>
-            <div>
+            <div class="form-group">
                 <p>Password:</p>
-                <input type="password" name="password" id="">
+                <input type="password" name="password" id="" class="form-control">
             </div>
-            <div>
+            <div class="form-group">
                 <p>Upload Profile Image:</p>
                 <input type="file" name="image" id="">
             </div>
