@@ -15,34 +15,34 @@
             <a href="#" class="text-info"> Nova APP</a>
         </div>
     </nav>
-    <main>
-        <form action="register.php" method="post" enctype="multipart/form-data">
+    <main class="container">
+        <form action="register.php" method="post" enctype="multipart/form-data" class="form-group">
             <div>
                 <p>Create Account</p>
                 <hr>
             </div>
-            <div class="form-group">
+            <div >
                 <p>First Name:</p>
                 <input type="text" name="firstname" autocomplete="off" class="form-control">
             </div>
-            <div class="form-group">
+            <div >
                 <p>Last Name:</p>
                 <input type="text" name="lastname" autocomplete="off" class="form-control">
             </div>
-            <div class="form-group">
+            <div >
                 <p>Email:</p>
                 <input type="text" name="email" autocomplete="off" class="form-control">
             </div>
-            <div class="form-group">
+            <div >
                 <p>Password:</p>
                 <input type="password" name="password" id="" class="form-control">
             </div>
-            <div class="form-group">
+            <div >
                 <p>Upload Profile Image:</p>
                 <input type="file" name="image" id="">
             </div>
             <div>
-                <p><input type="submit" value="sign up"></p>
+                <button type="submit" name="submit" class="btn btn-secondary p-1 mt-20">Sign Up</button>
             </div>
             <div>
                 <label>already have an account? <a href="sign_in.php">Log in</a></label>
